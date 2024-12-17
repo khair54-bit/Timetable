@@ -1,0 +1,35 @@
+
+.editable-cell:hover,
+.editable-time:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Tambahan untuk mempercantik tabel */
+table th,
+table td {
+    vertical-align: middle;
+    padding: 0.5rem;
+}
+
+/* Styling alternatif untuk perangkat kecil */
+@media (max-width: 576px) {
+
+    table th,
+    table td {
+        font-size: 0.85rem;
+        padding: 0.25rem;
+    }
+}
+
+.delete-row-btn {
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.delete-row-btn:hover {
+    color: #b02a37;
+}
