@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1732343525112,
+        "time": "06:30 AM - 05:00 PM",
+        "monday": "",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": ""
+    },
+    {
+        "id": 1732343554148,
+        "time": "07:00 AM - 08:00 AM",
+        "monday": "Meeting1",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": ""
+    }
+]
