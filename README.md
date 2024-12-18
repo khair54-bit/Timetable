@@ -56,7 +56,7 @@ Follow these steps to set up the application locally:
   └── delete.php                # Handles deleting records
 /index.php                     # Main entry point
 /login.php                     # Handles login process
-/login.php                     # Handles logout process
+/logout.php                     # Handles logout process
 /style.css                     # Stylesheet for the UI
 /README.md                     # Project documentation
 ```
