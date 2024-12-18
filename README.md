@@ -48,14 +48,15 @@ Follow these steps to set up the application locally:
 ```
 /system
   ├── /db
-  |     ├── data.json.example   # Example database file
-  |     └── data.json           # Your renamed database file
-  |
+  |     ├── user.json           # Your database user file
+  |     └── data.json           # Your database data file
   ├── write.php                 # Handles creating new records
   ├── read.php                  # Handles reading records
   ├── update.php                # Handles updating records
   └── delete.php                # Handles deleting records
 /index.php                     # Main entry point
+/login.php                     # Handles login process
+/login.php                     # Handles logout process
 /style.css                     # Stylesheet for the UI
 /README.md                     # Project documentation
 ```
