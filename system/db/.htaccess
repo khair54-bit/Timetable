@@ -1,3 +1,7 @@
+<Files "user.json">
+    Require all denied
+</Files>
+
 <Files "data.json">
     Require all denied
 </Files>

@@ -1,3 +1,12 @@
+<?php
+session_start(); // Memulai sesi
+
+// Cek apakah pengguna sudah login
+if (!isset($_SESSION['username'])) {
+    header('Location: login.php'); // Arahkan ke halaman login jika belum login
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,6 +27,12 @@
     <div class="container mt-5">
         <h2 class="text-center">Weekly Time Table</h2>
 
+        <!-- Logout Button -->
+        <div class="text-end mb-3">
+            <a href="logout.php" class="btn btn-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
         <!-- Buttons -->
         <div class="mb-3 text-end">
             <button id="add-row" class="btn btn-primary">Add Time Slot</button>
